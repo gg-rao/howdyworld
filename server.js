@@ -4,6 +4,7 @@ module.exports = function() {
   var app = express();
 
   app.get('/', function(req, res) {
+    console.log("Made contact with AWS")
     res.send('Hello, world!');
   });
 
